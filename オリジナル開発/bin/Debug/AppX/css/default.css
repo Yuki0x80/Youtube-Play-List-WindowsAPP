@@ -1,0 +1,504 @@
+﻿div{
+    text-align:center;
+}
+p {
+    color:#000;
+}
+body {
+    font-size:18px;
+    color:#FFF; 
+    background-color:#F8FCFF;
+}
+
+img {
+   position:absolute;
+   width:1000px;
+   top:250px;
+   left:75px;
+   z-index: -1;
+   opacity: 0.30;
+}
+
+#start {
+    position:relative;
+    top:0px;
+    left:0px;
+    border:solid 1px #2d2d2d;  
+    text-align:center; 
+    background:#575757; 
+    padding:15px 56px 15px 56px; 
+    -moz-border-radius: 5px;  
+    -webkit-border-radius: 5px; 
+    border-radius: 5px;
+}
+
+
+
+#left {
+    position:absolute;
+    top:610px;
+    right:1110px;
+    font:14px;
+    color:#fff;
+    background: #40AAEF;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin: 30px auto;
+    border-radius: 100%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    border-left:0px solid ;
+    border-right:0px solid ;
+    border-top:0px solid ;
+    border-bottom:0px solid ;
+
+}
+
+
+#left:active {
+  /* リンクの色 */
+  opacity: 0.5;
+  -webkit-box-shadow:0 0 0 15px #FFF, 0 0 0 19px #009AFF;
+  -moz-box-shadow:0 0 0 15px #FFF,0 0 0 19px #009AFF;
+  box-shadow:0 0 0 33px #FFF,0 0 0 38px #009AFF;
+}
+
+
+/*
+#center {
+    position:absolute;
+    top:530px;
+    right:80px;
+    font:14px;
+    color:#fff;
+    background: #ccc;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin: 50px auto;
+    border-radius: 100%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    border-left:0px solid ;
+    border-right:0px solid ;
+    border-top:0px solid ;
+    border-bottom:0px solid ;
+
+}
+
+#center:active {
+  opacity: 0.5;
+  -webkit-box-shadow:0 0 0 15px #FFF, 0 0 0 19px #B0B4B4;
+  -moz-box-shadow:0 0 0 15px #FFF,0 0 0 19px #B0B4B4;
+  box-shadow:0 0 0 33px #FFF,0 0 0 38px #B0B4B4;
+}*/
+
+
+#light {
+    /*#58BE89*/
+    position:absolute;
+    top:590px;
+    left:290px;
+    font:14px;
+    color:#fff;
+    background: #F27398;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin: 50px auto;
+    border-radius: 100%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    border-left:0px solid ;
+    border-right:0px solid ;
+    border-top:0px solid ;
+    border-bottom:0px solid ;
+
+}
+
+#light:active {
+  /* リンクの色 #1EEA81*/
+  opacity: 0.5;
+  -webkit-box-shadow:0 0 0 15px #FFF, 0 0 0 19px #1EEA81;
+  -moz-box-shadow:0 0 0 15px #FFF,0 0 0 19px #1EEA81;
+  box-shadow:0 0 0 33px #FFF,0 0 0 38px #FC4C7E;
+}
+
+#other {
+    /*#FC4C7E*/
+    position:absolute;
+    top:590px;
+    left:900px;
+    font:14px;
+    color:#fff;
+    background:#58BE89;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin: 50px auto;
+    border-radius: 100%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    border-left:0px solid ;
+    border-right:0px solid ;
+    border-top:0px solid ;
+    border-bottom:0px solid ;
+}
+
+#other:active {
+  opacity: 0.5;
+  -webkit-box-shadow:0 0 0 15px #FFF, 0 0 0 19px #FC4C7E;
+  -moz-box-shadow:0 0 0 15px #FFF,0 0 0 19px #FC4C7E;
+  box-shadow:0 0 0 33px #FFF,0 0 0 38px #1EEA81;
+}
+    
+
+/*/////////////////////////////////////////////// */
+
+#new1:hover + .menu-testlist {
+    background:#585858;
+    color:#f8f8f8;
+    opacity: 0.40;
+    border-left:1px solid #048EFF;
+    border-right:1px solid #048EFF;
+    border-top:1px solid #048EFF;
+    border-bottom:1px solid #048EFF;
+    z-index: 1;
+}
+
+.menu-list:hover   {
+    background:#f8f8f8;
+    color:#048EFF;
+    opacity: 0.8;
+    border-left:1px solid #048EFF;
+    border-right:1px solid #048EFF;
+    border-top:1px solid #048EFF;
+    border-bottom:1px solid #048EFF;
+    z-index: 1;
+}
+
+.menu, .menu-testlist,.menu-testlist2,.menu-testlist3,.menu-testlist4 {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0;
+}
+
+.menu-testlist,.menu-testlist2,.menu-testlist3,.menu-testlist4{
+  -webkit-transition: 0.25s ease-in;
+  -moz-transition: 0.25s ease-in;
+  -ms-transition: 0.25s ease-in;
+  -o-transition: 0.25s ease-in;
+  transition: 0.25s ease-in;
+}
+
+.menu-test {
+  -webkit-transition: 0.25s ease-in;
+  -moz-transition: 0.25s ease-in;
+  -ms-transition: 0.25s ease-in;
+  -o-transition: 0.25s ease-in;
+  transition: 0.25s ease-in;
+}
+
+.menu {
+  color: #f8f8f8;
+  background: #585858;
+}
+.menu:after {
+  content: "";
+  display: block;
+}
+
+.new1 ,.new2,.new3,.new4{
+  color: #f8f8f8;
+  padding: 0.5em 0.8em;
+  cursor: default;
+  box-shadow:2px 0px 2px 2px rgba(0,0,0,0.2); 
+}
+
+.menu-testlist {
+  left:1000px;
+  top:65px;
+  opacity: 0.0;
+  z-index: -1;
+  position: absolute;
+  border-top: 1px solid #666;
+  width: 10em;
+  background: #585858;
+  -webkit-box-shadow: 0 1px 4px -2px #666;
+  -moz-box-shadow: 0 1px 4px -2px #666;
+  box-shadow: 0 1px 4px -2px #666;
+}
+
+.menu-test {
+  padding: 0.3em 0.5em;
+  cursor: pointer;
+}
+.menu-test:hover {
+  background: #507ea4;
+}
+
+.new1:hover + .menu-testlist, .menu-testlist:hover {
+  opacity: 1;
+  z-index: 1;
+}
+
+#new2:hover + .menu-testlist2 {
+    background:#585858;
+    color:#f8f8f8;
+    opacity: 0.40;
+    border-left:1px solid #048EFF;
+    border-right:1px solid #048EFF;
+    border-top:1px solid #048EFF;
+    border-bottom:1px solid #048EFF;
+    z-index: 1;
+}
+
+.menu-testlist2 {
+  left:1000px;
+  top:205px;
+  opacity: 0.0;
+  z-index: -1;
+  position: absolute;
+  border-top: 1px solid #666;
+  width: 10em;
+  background: #585858;
+  -webkit-box-shadow: 0 1px 4px -2px #666;
+  -moz-box-shadow: 0 1px 4px -2px #666;
+  box-shadow: 0 1px 4px -2px #666;
+}
+
+.new2:hover + .menu-testlist2, .menu-testlist2:hover {
+  opacity: 1;
+  z-index: 1;
+}
+
+#new3:hover + .menu-testlist3 {
+    background:#585858;
+    color:#f8f8f8;
+    opacity: 0.40;
+    border-left:1px solid #048EFF;
+    border-right:1px solid #048EFF;
+    border-top:1px solid #048EFF;
+    border-bottom:1px solid #048EFF;
+    z-index: 1;
+}
+
+.menu-testlist3 {
+  left:1000px;
+  top:346px;
+  opacity: 0.0;
+  z-index: -1;
+  position: absolute;
+  border-top: 1px solid #666;
+  width: 10em;
+  background: #585858;
+  -webkit-box-shadow: 0 1px 4px -2px #666;
+  -moz-box-shadow: 0 1px 4px -2px #666;
+  box-shadow: 0 1px 4px -2px #666;
+}
+
+.new3:hover + .menu-testlist3, .menu-testlist3:hover {
+  opacity: 1;
+  z-index: 1;
+}
+
+#new4:hover + .menu-testlist4 {
+    background:#585858;
+    color:#f8f8f8;
+    opacity: 0.40;
+    border-left:1px solid #048EFF;
+    border-right:1px solid #048EFF;
+    border-top:1px solid #048EFF;
+    border-bottom:1px solid #048EFF;
+    z-index: 1;
+}
+
+.menu-testlist4 {
+  left:1000px;
+  top:489px;
+  opacity: 0.0;
+  z-index: -1;
+  position: absolute;
+  border-top: 1px solid #666;
+  width: 10em;
+  background: #585858;
+  -webkit-box-shadow: 0 1px 4px -2px #666;
+  -moz-box-shadow: 0 1px 4px -2px #666;
+  box-shadow: 0 1px 4px -2px #666;
+}
+
+.new4:hover + .menu-testlist4, .menu-testlist4:hover {
+  opacity: 1;
+  z-index: 1;
+}
+
+/*/////////////////////////////////////////////////////////////*/
+
+.content{
+position:absolute;
+background-color: #fff;
+top:40px;
+left:90px;
+height: 650px;
+width:970px;
+text-align:center;
+padding-top: 50px;
+box-shadow:8px 8px 8px 8px rgba(0,0,0,0.2); 
+border-radius:10px 10px 10px 10px;
+ opacity: 1.0;
+ z-index: -2;
+}
+ 
+/*----リボン----*/
+.ex-1{
+position: relative;
+left:-10px;
+top:-20px;
+
+ 
+/*リボンの色*/
+background-color: lightcoral;/*グラデーションが表示されないブラウザ用*/
+background: -webkit-gradient(linear,left top, left bottom,from(#f29c96), to(#f08080));/*古いSafariなど用*/
+background: -webkit-linear-gradient(#f29c96, #f08080);/*Safari、Chrome用*/
+background: -moz-linear-gradient(#f29c96, #f08080);/*Firefox用*/
+background: -o-linear-gradient(#f29c96, #f08080);/*Opera用*/
+background: linear-gradient(#f29c96, #f08080); /*標準*/
+ 
+/*文字*/
+color: indianred;
+text-align: center;
+text-shadow:0 1px 0 rgba(255,255,255,0.3);
+-webkit-text-shadow:0 1px 0 rgba(255,255,255,0.3);
+ 
+/*リボンの幅と高さ330*/
+width: 1020px;
+line-height:  70px;
+ 
+/*はみ出る部分*/
+margin-left: -15px;
+margin-right: -15px;
+ 
+/*上側だけちょこっと角丸*/
+border-radius:2px 2px 0 0;
+-webkit-border-radius:2px 2px 0 0;
+ 
+/*リボンが少し浮いて見えるようにうっすらとシャドウ*/
+box-shadow:0 10px 30px -8px rgba(0,0,0,0.2); 
+-webkit-box-shadow:0 10px 30px -8px rgba(0,0,0,0.2); 
+}
+ 
+.ex-1:before{
+position: absolute;
+top:63%;
+left:-25px;
+content: "";
+border: 25px solid transparent;
+border-right-color: indianred ;
+z-index: -1;
+}
+ 
+.ex-1:after{
+position: absolute;
+top:63%;
+right:-25px;
+content: "";
+border: 25px solid transparent;
+border-left-color: indianred ;
+z-index: -1;
+}
+
+#playnow {
+    z-index: 2;
+
+}
+
+
+/* ----------------------
+    プレイヤーの
+    タイトル文字
+---------------------- */
+#title {
+    font-size: 10%;
+    font-weight:bold;
+}
+
+/* ----------------------
+    プレイヤーの
+    動画再生部分
+---------------------- */
+#frame {
+    position:absolute;
+    top:140px;
+    left:147px;
+    width: 853px !important;
+    height: 480px !important;
+    margin: 20px 0 10px;
+    border: 0;
+    padding: 0;
+    opacity: 0.75;
+    background-color: #000;
+}
+
+/* ----------------------
+    プレイヤーの
+    メニュー部分
+---------------------- */
+menu {
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+/* ----------------------
+    ボタン
+---------------------- */
+#btn1 {
+    position:absolute;
+    top:30px;
+    left:300px;
+     color:black;
+}
+
+button {
+    position:absolute;
+    top:30px;
+    left:150px;
+    color:black;
+    margin: 0 10px;
+    border: none;
+    padding: 10px 20px;
+
+    font-weight: bold;
+
+    /*background-color: #efefef;*/
+    box-shadow: rgba(0,0,0,0.4) 0 0 2px;
+}
+
+/* ----------------------
+    ロード中の
+    ポップアップ表示
+---------------------- */
+#loadFlyout {
+    margin: 0;
+    border: 6px solid #000;
+    padding: 20px 40px;
+
+    font-size: 190%;
+    font-weight: bold;
+    
+    border-radius: 8px;
+    background-color: #f6f6f6;
+}

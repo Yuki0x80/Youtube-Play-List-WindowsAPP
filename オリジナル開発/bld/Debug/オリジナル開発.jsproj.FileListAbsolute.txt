@@ -1,0 +1,16 @@
+C:\Users\齊藤　悠希\Desktop\オリジナル開発\オリジナル開発\bin\Debug\ReverseMap\resources.pri
+C:\Users\齊藤　悠希\Desktop\オリジナル開発\オリジナル開発\bin\Debug\AppxManifest.xml
+C:\Users\齊藤　悠希\Desktop\オリジナル開発\オリジナル開発\bin\Debug\オリジナル開発.build.appxrecipe
+C:\Users\齊藤　悠希\Desktop\オリジナル開発\オリジナル開発\bld\Debug\priconfig.xml
+C:\Users\齊藤　悠希\Desktop\オリジナル開発\オリジナル開発\bld\Debug\priconfig.xml.intermediate
+C:\Users\齊藤　悠希\Desktop\オリジナル開発\オリジナル開発\bld\Debug\layout.resfiles
+C:\Users\齊藤　悠希\Desktop\オリジナル開発\オリジナル開発\bld\Debug\layout.resfiles.intermediate
+C:\Users\齊藤　悠希\Desktop\オリジナル開発\オリジナル開発\bld\Debug\resources.resfiles
+C:\Users\齊藤　悠希\Desktop\オリジナル開発\オリジナル開発\bld\Debug\resources.resfiles.intermediate
+C:\Users\齊藤　悠希\Desktop\オリジナル開発\オリジナル開発\bld\Debug\pri.resfiles
+C:\Users\齊藤　悠希\Desktop\オリジナル開発\オリジナル開発\bld\Debug\pri.resfiles.intermediate
+C:\Users\齊藤　悠希\Desktop\オリジナル開発\オリジナル開発\bld\Debug\qualifiers.txt
+C:\Users\齊藤　悠希\Desktop\オリジナル開発\オリジナル開発\bld\Debug\qualifiers.txt.intermediate
+C:\Users\齊藤　悠希\Desktop\オリジナル開発\オリジナル開発\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\齊藤　悠希\Desktop\オリジナル開発\オリジナル開発\bld\Debug\ProjectArchitectures.txt
+C:\Users\齊藤　悠希\Desktop\オリジナル開発\オリジナル開発\bin\Debug\MicrosoftAdvertising.winmd
